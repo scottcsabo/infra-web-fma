@@ -1,0 +1,31 @@
+#Site made and written by Scott Sabo FMA
+baseURL: 
+languageCode: en-us
+title: Fundamental Martial Arts
+copyright: FMA, Fundamental Martial Arts
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+menu:
+  main:
+    - name: Home
+      url: /
+      weight: 1
+#Main Menu items are auto-generated from pages inside content 
+
+params:
+  slogan: "Self defense skill development"
+  description: "Building practical responses to serious threats"
+  footer: #place statement here to replace default footer.  This can also include markdown formatted text.
+  
+  # Social media
+  facebook: FMAbyScott #the Facebook handle of your site ('https://www.facebook.com/HANDLE')
+  instagram: scottfma #the Instagram handle of your site ('https://www.instagram.com/HANDLE/')
+  contact: "mailto:scotshep.az@gmail.com" #mailto: plus email address
+  #link not working properly at the moment phone: "tel:9289252642" #tel: plus telephone number
+  
+  # Format dates with Go's time formatting
+  date_format: "January 2, 2006"

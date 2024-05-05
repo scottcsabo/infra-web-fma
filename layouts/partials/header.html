@@ -1,0 +1,28 @@
+<div class="container-fluid bg-dark">
+    <div class="row">
+        <div>
+            <span>
+            <!--<div class="image">
+                /images/banner.png
+            </div>-->
+            <div class="text-center">
+                <!-- Header text for small screens-->
+                <div class="d-lg-none text-white fs-3">Self defense skill development</div>
+                <!-- Removed per Scott on 8-25-22 <div class="d-lg-none text-white fs-3">for everyone</div> -->
+                <!-- Header text for large screens-->
+                <div class="d-none d-lg-block text-white fs-1">{{ .Site.Params.Slogan }}</div>
+                <h2 style="color: white;"><img srcset="/images/FMA-mobile.webp 94w,
+                                                         /images/FMA.webp 223w"
+                                                 sizes="(max-width: 1080px) 94px, 223px"
+                                                 src="/images/FMA.webp"
+                                                 alt="Logo"></h3>
+                <!-- Header text for small screens-->
+                <div class="d-lg-none text-white fs-3">Building practical responses</div>
+                <div class="d-lg-none text-white fs-3">to serious threats</div>
+                <!-- Header text for large screens-->
+                <div class="d-none d-lg-block text-white fs-1">{{ .Site.Params.Description }}</div>
+            </div>
+            </span>
+        </div>
+    </div>
+</div>

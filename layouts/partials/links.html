@@ -1,0 +1,32 @@
+<div class="sns-links hidden-print">
+    {{ with .Site.Params.contact }}
+      <a style="color: #ffffff; padding: 0px 5px; text-decoration:none;" href="{{ . }}">
+        <i class="fa-solid fa-envelope fa-lg"></i>
+      </a>
+    {{ end }}
+    {{ with .Site.Params.twitter }}
+      <a style="color: #ffffff; padding: 0px 5px; text-decoration:none;" href="https://twitter.com/{{ . }}" target="_blank">
+        <i class="fa-brands fa-twitter-square fa-lg"></i>
+      </a>
+      {{ end }}
+    {{ with .Site.Params.instagram }}
+      <a style="color: #ffffff; padding: 0px 5px; text-decoration:none;" href="https://instagram.com/{{ . }}" target="_blank">
+        <i class="fa-brands fa-instagram-square fa-lg"></i>
+      </a>
+    {{ end }}
+    {{ with .Site.Params.facebook }}
+      <a style="color: #ffffff; padding: 0px 5px; text-decoration:none;" href="https://facebook.com/{{ . }}" target="_blank">
+        <i class="fa-brands fa-facebook-square fa-lg"></i>
+      </a>
+    {{ end }}
+    {{ with .Site.Params.reddit }}
+      <a style="color: #ffffff; padding: 0px 5px; text-decoration:none;" href="https://reddit.com/user/{{ . }}" target="_blank">
+        <i class="fa-brands fa-reddit-alien-square fa-lg"></i>
+      </a>
+    {{ end }}
+    {{ with .Site.Params.phone }}
+      <a style="color: #ffffff; padding: 0px 5px; text-decoration:none;" href="{{ . }}">
+        <i class="fa-solid fa-phone fa-lg"></i>
+      </a>
+    {{ end }}
+  </div>
